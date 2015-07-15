@@ -13,7 +13,7 @@ module XdomainRails
     private
 
     def xdomain_script_tag
-      javascript_include_tag(asset_path("xdomain.js"))
+      javascript_include_tag("xdomain.js")
     end
 
     def configuration
